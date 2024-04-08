@@ -27,3 +27,8 @@ we can also send out invitations to other people to join organizations. If we ge
 
 ** LEARN MORE ABOUT CLERK AND CONVEX
 
+query-string and usehooks-ts packages for faster dev
+debouncedValue is used for the input which has not been changed for a given period of time. const debouncedValue = useDebounceValue(value, 500); in this case 500 milliseconds
+render pages based on the query of fetch data based on the query, queryString lib is used and we will use this to change what we are seeing in the boards
+
+
