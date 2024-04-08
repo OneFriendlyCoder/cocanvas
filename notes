@@ -16,3 +16,8 @@ I need to make a provider for ClerkProvider, and wrap the root layout within it 
 
 Now need to add Loading screen and signout
 public folder is where we keep out static assets
+
+in the provider Authenticated is used to render when we have authenticated into the app, and AuthLoading is when we have authenticated and waiting for the web page to load
+
+we can make changes to the singin pages using the clerk dashboard
+
