@@ -20,4 +20,10 @@ public folder is where we keep out static assets
 in the provider Authenticated is used to render when we have authenticated into the app, and AuthLoading is when we have authenticated and waiting for the web page to load
 
 we can make changes to the singin pages using the clerk dashboard
+well we can also style the clerk items, with the appearance props. Check out the org-Sidebar.tsx component Organization Switcher.
+we can also get search params from useSearchParams hook in next/navigation, we are gettng this because we want to dynamically render the component based on the search params.
+
+we can also send out invitations to other people to join organizations. If we get any erros in this which means that we have not allowed clerk to use emails, so check that out on the clerk dashboard
+
+
 
