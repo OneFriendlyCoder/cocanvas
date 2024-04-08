@@ -25,5 +25,5 @@ we can also get search params from useSearchParams hook in next/navigation, we a
 
 we can also send out invitations to other people to join organizations. If we get any erros in this which means that we have not allowed clerk to use emails, so check that out on the clerk dashboard
 
-
+** LEARN MORE ABOUT CLERK AND CONVEX
 
