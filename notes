@@ -10,5 +10,9 @@ in clerk we can add jwt templates and can also modify them based on what we want
 
 check the clerk and convex docs in order to set things up
 rn we need to create a auth.config.js file inside the convex folder and the code is present in the convex docs. we need to make changes to the domain and also check for any changes that are needed to be made for the applicationID. The issuer is provided in the clerk dashboard itself.
-in order to verify if the configurations for convex and clerk are correct run "npx convex dev" it should spit out "COnvex functions are ready"
+in order to verify if the configurations for convex and clerk are correct run "npx convex dev" it should spit out "Convex functions are ready"
 
+I need to make a provider for ClerkProvider, and wrap the root layout within it so that our app is protected. So once we wrap the app we will see a custom signin/signup page
+
+Now need to add Loading screen and signout
+public folder is where we keep out static assets
