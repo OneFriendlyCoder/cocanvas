@@ -1,0 +1,14 @@
+npx convex dev -> run backend -> run this command eveytime we make some changes to the backend schema or apis
+convex -> backend and data
+unlike in previous projects where we needed prisma whenever we changed the schema here convex will take care of it and is fast
+npx prisma studio -> we can see our tables and just like that we can see them here as well
+when api routes are created login and success and failure are all taken care of and this all things are real time
+
+time to you clerk-> authentication and user management
+choose email address in clerk to get invoice when deploying applications, this also comes from clerk
+in clerk we can add jwt templates and can also modify them based on what we want in the jwt token. Also in order for that we need to create a JWT templates in the templates.
+
+check the clerk and convex docs in order to set things up
+rn we need to create a auth.config.js file inside the convex folder and the code is present in the convex docs. we need to make changes to the domain and also check for any changes that are needed to be made for the applicationID. The issuer is provided in the clerk dashboard itself.
+in order to verify if the configurations for convex and clerk are correct run "npx convex dev" it should spit out "COnvex functions are ready"
+
